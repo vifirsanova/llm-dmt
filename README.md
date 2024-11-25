@@ -34,21 +34,18 @@ bnf_description = linguistic_framework.get_bnf_description
 
 ## Step 3: Convert BNF to graph representation
 
+**Input**: bnf_description - BNF description of the linguistic framework from step 2
+**Output**: bnf_graph - graph representation of the BNF description
 
 
-## Step 4: Search for intersections between graphs
+**Example usage**
 
-   
-# Step 2: Obtain BNF description of a linguistic framework
-
-
-# Step 3: Convert BNF to graph representation
-# Input: bnf_description - BNF description of the linguistic framework
-# Output: bnf_graph - graph representation of the BNF description
-
+```
 bnf_graph = Graph(bnf_description)
-    
+```
+   
 # Step 4: Search for intersections between graphs
+
 # Input: llm_graph - graph from embeddings, bnf_graph - graph from BNF
 # Output: intersections - list of matching nodes between the graphs
 
