@@ -48,7 +48,7 @@ bnf_graph = Graph(bnf_description)
 
 [See the implementation..](https://github.com/vifirsanova/llm-dmt/blob/main/get_graph.ipynb)
 
-# Steps 4-5: Search for intersections between graphs and calculate similarity
+## Steps 4-5: Search for intersections between graphs and calculate similarity
 
 **Input**: llm_graph - graph from embeddings, bnf_graph - graph from BNF
 
