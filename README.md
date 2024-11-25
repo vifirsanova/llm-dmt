@@ -19,6 +19,8 @@ llm_graph = Graph(embeddings)
 
 [See the implementation..](https://github.com/vifirsanova/llm-dmt/blob/main/get_embeddings.ipynb)
 
+![image](https://github.com/user-attachments/assets/3b45bd3f-9b21-4d59-a990-f4c1db2ca000)
+
 ## Step 2: Obtain BNF description of a linguistic framework
 
 **Input**: linguistic_framework - object representing a linguistic framework
@@ -32,6 +34,8 @@ bnf_description = linguistic_framework.get_bnf_description
 ```
 
 [See the implemetation..](https://github.com/vifirsanova/llm-dmt/blob/main/get_rules.ipynb)
+
+![image](https://github.com/user-attachments/assets/cbf265a0-0a22-46fb-a003-370093882f6d)
 
 ## Step 3: Convert BNF to graph representation
 
@@ -47,6 +51,8 @@ bnf_graph = Graph(bnf_description)
 ```
 
 [See the implementation..](https://github.com/vifirsanova/llm-dmt/blob/main/get_graph.ipynb)
+
+![image](https://github.com/user-attachments/assets/ee19c196-ad2b-4bad-8526-cb7e1e4a1c82)
 
 ## Steps 4-5: Search for intersections between graphs and calculate similarity
 
