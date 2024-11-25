@@ -21,16 +21,26 @@ llm_graph = Graph(embeddings)
 
 ## Step 2: Obtain BNF description of a linguistic framework
 
+**Input**: linguistic_framework - object representing a linguistic framework
+**Output**: bnf_description - BNF description of the framework
+
+**Example usage**
+
+```
+bnf_description = linguistic_framework.get_bnf_description
+```
+
+[See the implemetation..](https://github.com/vifirsanova/llm-dmt/blob/main/get_rules.ipynb)
+
 ## Step 3: Convert BNF to graph representation
+
+
 
 ## Step 4: Search for intersections between graphs
 
    
 # Step 2: Obtain BNF description of a linguistic framework
-# Input: linguistic_framework - object representing a linguistic framework
-# Output: bnf_description - BNF description of the framework
 
-bnf_description = linguistic_framework.get_bnf_description
 
 # Step 3: Convert BNF to graph representation
 # Input: bnf_description - BNF description of the linguistic framework
